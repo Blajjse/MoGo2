@@ -92,3 +92,20 @@
     text-align: center;
     color: #f38181;
 }
+.header-link {
+    color: #95e1d3;
+}
+.header-logo {
+    color: #95e1d3;
+}
+.end-link {
+    color: #f38181;
+}
+.submit {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 14px;
+    font-variant: all-small-caps;
+    text-align: center;
+    color: #fff;
+}
