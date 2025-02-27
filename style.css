@@ -1,109 +1,111 @@
 :root {
-    --font-family: "Roboto", sans-serif;
-    --second-family: "Raleway", sans-serif;
+    --font-family: "Montserrat", sans-serif;
+    --second-family: "Roboto", sans-serif;
+    --third-family: "Kaushan Script", sans-serif;
   }
-
-.a a {
+  .header-logo {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 30px;
+    color: #95e1d3;
+  }
+.header-link {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    color: #95e1d3;
+}
+.main-subtitle {
+    font-family: var(--third-family);
+    font-weight: 400;
+    font-size: 24px;
+    color: #333;
+}
+.main-title {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 30px;
+    font-variant: all-small-caps;
+    color: #333;
+}
+.sec-subtitle {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    font-variant: small-caps;
+    color: #333;
+}
+.main-text {
     font-family: var(--second-family);
-    font-weight: 700;
-    font-size: 26px;
-    letter-spacing: 0.03em;
-    color: #2196f3;
-}
-.b a {
-    font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 14px;
-    letter-spacing: 0.02em;
-    color: #212121;
-}
-.c a {
-    font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 14px;
-    letter-spacing: 0.02em;
-    color: #757575;
-}
-.d h1 {
-    font-family: var(--font-family);
-    font-weight: 700;
-    font-size: 14px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #212121;
-}
-.d button {
-    width: 216px;
-    height: 50px;
-    text-align: center;
-}
-.e h3 {
-    font-family: var(--font-family);
-    font-weight: 700;
-    font-size: 14px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #212121;
-}
-.e p {
-    font-family: var(--font-family);
     font-weight: 400;
-    font-size: 14px;
-    line-height: 171%;
-    letter-spacing: 0.03em;
-    color: #757575;
+    font-size: 15px;
+    line-height: 147%;
+    color: #b6b6b6;
 }
-.f a {
-    font-family: var(--font-family);
+.aboutus-subtitle {
+    font-family: var(--third-family);
     font-weight: 400;
-    font-size: 14px;
-    line-height: 171%;
-    letter-spacing: 0.03em;
+    font-size: 24px;
+    color: #333;
 }
-.g a {
+.aboutus-title {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 30px;
+    font-variant: all-small-caps;
+    color: #333;
+}
+.aboutus-info {
     font-family: var(--second-family);
-    font-weight: 700;
-    font-size: 26px;
-    letter-spacing: 0.03em;
-    color: #2196f3;
-}
-.h a {
-    width: 45px;
-    height: 16px;
-}
-.i a {
-    width: 135px;
-    height: 16px;
-}
-.aa a {
-    font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 14px;
-    letter-spacing: 0.02em;
-    color: #757575;
-}
-.ad button {
-    font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 162%;
-    letter-spacing: 0.03em;
+    font-weight: 400;
+    font-size: 15px;
     text-align: center;
-
+    color: #b6b6b6;
 }
-.ab h3 {
-    font-family: var(--font-family);
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 200%;
-    letter-spacing: 0.06em;
-    color: #212121;
-}
-.ac h4 {
+.aboutus-name {
     font-family: var(--font-family);
     font-weight: 400;
-    font-size: 16px;
-    line-height: 187%;
-    letter-spacing: 0.03em;
-    color: #757575;
+    font-size: 14px;
+    font-variant: all-small-caps;
+    text-align: center;
+    color: #333;
+}
+.aboutus-aboutteam {
+    font-family: var(--second-family);
+    font-style: italic;
+    font-weight: 300;
+    font-size: 15px;
+    text-align: center;
+    color: #b6b6b6;
+}
+.end-idk {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: #333;
+}
+.end-link {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: #f38181;
+}
+.header-link {
+    color: #95e1d3;
+}
+.header-logo {
+    color: #95e1d3;
+}
+.end-link {
+    color: #f38181;
+}
+.submit {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 14px;
+    font-variant: all-small-caps;
+    text-align: center;
+    color: #fff;
 }
